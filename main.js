@@ -1,4 +1,4 @@
-var socket = io.connect('http://node-linda-base.herokuapp.com:80');
+var socket = io.connect('http://linda-server.herokuapp.com:80');
 var linda = new Linda().connect(socket);
 
 var ts = linda.tuplespace('chatroom01');
